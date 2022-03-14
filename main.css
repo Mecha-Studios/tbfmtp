@@ -1,7 +1,7 @@
 body{
     margin: 0;
     /*background: url('TR_Space_background_2020_no_logo.png') no-repeat center center fixed;*/
-    background-color: rgb(44, 44, 44);
+    background-color: grey;
     font-family: arial;
     align-items: center;
     align-content: center;
@@ -19,6 +19,24 @@ body{
     flex-direction: row;
     margin: auto;
     width: 60%;
+    padding: 10px;
+}
+
+.incontainimg{
+    padding-top: 50px;
+}
+
+.socialbutt{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    text-align: left;
+}
+.socialtxt{
+    padding: 10px;
+}
+.socialicon{
+
     padding: 10px;
 }
 
@@ -86,7 +104,7 @@ a{
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background: rgba(0, 0, 0, .75);
+    background: linear-gradient(124deg, red, white, blue);
     box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
     border: none;
     position: fixed;
