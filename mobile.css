@@ -95,7 +95,7 @@ a{
 .elmcontain{
     width: 100%;
     position: absolute;
-    margin: 10px;
+    margin: 0;
     top: 10%;
     text-align: center;
 }
